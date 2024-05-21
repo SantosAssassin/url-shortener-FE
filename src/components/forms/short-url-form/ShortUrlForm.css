@@ -1,0 +1,39 @@
+input {
+    width: 80%;
+    height: 50px;
+    padding: 0px 15px;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+select {
+    width: fit-content;
+    height: 50px;
+    padding: 0px 15px;
+    border-radius: 12px;
+    font-size: 17px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+label{
+    font-weight: 600;
+}
+
+.url-input{
+    display: flex;
+    flex-direction: row;
+}
+
+.short-url-button{
+    width: calc(100vw - 80%);
+    border: 1px solid #000;
+    border-radius: 12px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
